@@ -1,0 +1,55 @@
+/* Configurações gerais da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card centralizado */
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    color: #333333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+#texto-frase {
+    color: #555555;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    min-height: 60px; /* Garante espaço para a frase não "pular" o layout */
+    margin-bottom: 25px;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.98);
+}
